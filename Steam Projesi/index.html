@@ -1,0 +1,1060 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/index.js"></script>
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>Steam'deki Oyunlar</h1>
+        <p>Steam'deki en yeni, en çok satan ve indirimdeki bilgisayar oyunlarına göz atın.</p>
+    </div>
+
+    <div class="topnav">
+        <a href="magaza.html" target="_blank">MAĞAZA</a>
+        <a href="topluluk.html" target="_blank">TOPLULUK</a>
+        <a href="hakkinda.html" target="_blank">HAKKINDA</a>
+        <a href="destek.html" target="_blank">DESTEK</a>
+        <select name="diller" id="diller" style="float:right">
+            <option value="türkçe">
+                <p>TÜRKÇE</p>
+            </option>
+            <option value="english">
+                <p>ENGLİSH</p>
+            </option>
+        </select>
+        <a href="giris.html" target="_blank" style="float:right">GİRİŞ</a>
+        <a href="steam_yukleyin.html" target="_blank" id="steami-yukleyin-button" style="float:right">STEAM YÜKLEYİN</a>
+    </div>
+
+    <div class="row">
+        <div class="leftcolumn">
+            <div class="card">
+                <h2>EN POPÜLER AÇIK DÜNYA OYUNU</h2>
+                <h5>Gta 5, 100 milyon indirmeyle şuanda en popüler açık dünya oyunu konumunda, 22 Haziran 2021</h5>
+                <div class="fakeimg" style="height:200px;">Image</div>
+                <p><b>Grand Theft Auto V</b></p>
+                <p>Grand Theft Auto V (aynı zamanda Grand Theft Auto Five, GTA 5, GTA V veya GTAV olarak da bilinir),
+                    Rockstar North tarafından geliştirilen ve Rockstar Games tarafından yayımlanan 2013 tarihli açık
+                    uçlu aksiyon-macera tarzı bir video oyunudur.
+                    Grand Theft Auto serisinin yedinci ana oyunu olan GTA V, Güney Kaliforniya'ya dayanılarak
+                    tasarlanmış olan kurgusal San Andreas eyaletinde geçmektedir ve tek oyunculu hikâyesi, üç ana
+                    karakterin -eski banka soyguncusu Michael De Santa, sokak çetesi üyesi Franklin Clinton ve
+                    uyuşturucu satıcısı Trevor Philips- yozlaşmış bir devlet kurumuyla güçlü suçluların baskısı
+                    altındayken soygun yapma çabalarını konu almaktadır.Modellenen açık dünya, oyuncuların San
+                    Andreas'ın açık kırsalında (Blaine County) ve Los Angeles'a dayanılarak tasarlanmış şehir merkezinde
+                    (Los Santos) serbestçe dolaşmasına olanak tanımaktadır.
+                </p>
+
+                <a class="linkButton24" href="#">İncele</a>
+            </div>
+
+            <div class="card-csgo">
+                <h2>EN POPÜLER FPS OYUNU</h2>
+                <h5>CS-GO , 500 milyon indirmeyle şuanda en popüler fps oyunu konumunda, 22 Haziran 2021</h5>
+                <div class="fakeimg" style="height:200px;">Image</div>
+                <p><b>Counter-Strike: Global Offensive</b></p>
+                <p>Counter-Strike: Global Offensive ya da bilinen kısa adıyla CS:GO, Valve ve Hidden Path Entertainment
+                    tarafından geliştirilen çevrimiçi birinci şahıs nişancı oyunudur. Counter-Strike serisinin dördüncü
+                    oyunudur. Ağustos 2012'de Microsoft Windows, macOS, Xbox 360 ve PlayStation 3 için piyasaya
+                    sürülürken, Linux sürümü 2014'te piyasaya sürülmüştür.
+                    Oyun, Teröristler ve Anti-Teröristler adlı takımı Her iki taraf da birbirlerini yok etmeleriyle ve
+                    aynı zamanda ayrı hedefleri tamamlamakla görevlidir. Teröristler, oyun moduna bağlı olarak ya
+                    bombayı yerleştirmeli ya da rehineleri savunmalıdır; Anti Teröristler ise ya bombanın
+                    yerleştirilmesini önlemeli, bombayı etkisiz hale getirmeli ya da rehineleri kurtarmalıdır. Hepsi bu
+                    moda özgü farklı özelliklere sahip dokuz oyun modu vardır. Oyunda ayrıca oyuncuların özel Valve
+                    sunucularında oynamasına ve ayrıca topluluk üyelerinin özel haritalar ve oyun modları ile kendi
+                    sunucularını barındırmalarına izin veren eşleştirme desteği de bulunmaktadır. Bir battle royale oyun
+                    modu olan "Tehlikeli Bölge", Aralık 2018'de tanıtıldı.
+                </p>
+
+                <a class="linkButton24" href="#">İncele</a>
+            </div>
+
+            <div class="oyunKatagorileriVeOyunlar">
+
+                <button style="float: left; height: 40px; width:120px;">Yeni Ve Popüler</button>
+                <button style="float: left; height: 40px; width:120px;">Çok Satanlar</button>
+                <button style="float: left; height: 40px; width:120px;">Şu Anda Oynanılanlar</button>
+                <button style="float: left; height: 40px; width:120px; margin-bottom: 5px;">Pek Yakında</button>
+
+                <!-- Oyun Butonları-->
+                <div>
+                    <button class="oyun-katagorileri-ve-oyunlar-button" style="clear: left;">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+                    <button class="oyun-katagorileri-ve-oyunlar-button">
+                        <img class="oyun-katagorileri-ve-oyunlar-img" src="empty.png" alt="boş">
+                        <div style="float: left; padding: 20px; margin: auto; width: 50%;">
+                            <p style="float: left;  margin-left: 10px;">Project Chemistry</p>
+                            <p style="float: left;  margin-left: 10px;">Fiyat:</p>
+                            <p style="float:left">129,99 TL</p>
+                        </div>
+                    </button>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="rightcolumn">
+            <div class="card">
+                <h2>Önerilen Oyunlar</h2>
+                <p><b>Sizin için önerilen oyunlar</b></p>
+                <div class="fakeimg marginTop10"><img class="imageSize" src="#"></div>
+                <div class="fakeimg marginTop10"><img class="imageSize" src="#"></div>
+                <div class="fakeimg marginTop10"><img class="imageSize" src="#"></div>
+                <div class="fakeimg marginTop10"><img class="imageSize" src="#"></div>
+                <div class="fakeimg marginTop10"><img class="imageSize" src="#"></div>
+                <div class="fakeimg marginTop10"><img class="imageSize" src="#"></div>
+                <div class="fakeimg marginTop10"><img class="imageSize" src="#"></div>
+                <div class="fakeimg marginTop10"><img class="imageSize" src="#"></div>
+                <div class="fakeimg marginTop10"><img class="imageSize" src="#"></div>
+                <div class="fakeimg marginTop10"><img class="imageSize" src="#"></div>
+
+            </div>
+            <div class="card">
+                <h3>Günlük Fırsatlar </h3>
+                <div class="fakeimg marginTop10">
+                    <img class="imageSize" src="#">
+                </div>
+                <div class="fakeimg marginTop10">
+                    <img class="imageSize" src="#">
+                </div>
+                <div class="fakeimg marginTop10">
+                    <img class="imageSize" src="#">
+                </div>
+                <div class="fakeimg marginTop10">
+                    <img class="imageSize" src="#">
+                </div>
+                <div class="fakeimg marginTop10">
+                    <img class="imageSize" src="#">
+                </div>
+                <div class="fakeimg marginTop10">
+                    <img class="imageSize" src="#">
+                </div>
+                <div class="fakeimg marginTop10">
+                    <img class="imageSize" src="#">
+                </div>
+                <div class="fakeimg marginTop10">
+                    <img class="imageSize" src="#">
+                </div>
+                <div class="fakeimg marginTop10">
+                    <img class="imageSize" src="#">
+                </div>
+                <div class="fakeimg marginTop10">
+                    <img class="imageSize" src="#">
+                </div>
+            </div>
+            <div class="card">
+                <h3>İLGİNİZİ ÇEKEBİLİR</h3>
+                <img class="imageSize" src="empty.png" alt="boş resim">
+
+            </div>
+
+            <div class="card2">
+                <h3>İLGİNİZİ ÇEKEBİLİR</h3>
+                <input class="katagorilereGozatButton" style="float: left;" type="button" value="Aksiyon">
+                <input class="katagorilereGozatButton" style="float: left;" type="button" value="Basit Eğlence">
+                <input class="katagorilereGozatButton" style="float: left;" type="button" value="Aksiyon">
+                <input class="katagorilereGozatButton" style="float: left;" type="button" value="Basit Eğlence">
+                <input class="katagorilereGozatButton" style="float: left;" type="button" value="Aksiyon">
+                <input class="katagorilereGozatButton" style="float: left;" type="button" value="Basit Eğlence">
+                <input class="katagorilereGozatButton" style="float: left;" type="button" value="Aksiyon">
+                <input class="katagorilereGozatButton" style="float: left;" type="button" value="Basit Eğlence">
+                <input class="katagorilereGozatButton" style="float: left;" type="button" value="Aksiyon">
+                <input class="katagorilereGozatButton" style="float: left;" type="button" value="Basit Eğlence">
+                <input class="katagorilereGozatButton" style="float: left;" type="button" value="Aksiyon">
+                <input class="katagorilereGozatButton" style="float: left;" type="button" value="Basit Eğlence">
+            </div>
+
+            <div class="card3">
+                <h3>TAVSİYE EDİLEN ÖZEL FIRSATLAR</h3>
+
+                <button class="katagorilereGozatButton" style="float:left;">
+                    <img class="ozelFirsatlarImg" style="margin: auto;" src="empty.png" alt="empty">
+                    <p style="margin:auto;">129,99TL</p>
+                </button>
+                <button class="katagorilereGozatButton">
+                    <img class="ozelFirsatlarImg" style="margin: auto;" src="empty.png" alt="empty">
+                    <p style="margin:auto;">129,99TL</p>
+                </button>
+                <button class="katagorilereGozatButton" style="float:left;">
+                    <img class="ozelFirsatlarImg" style="margin: auto;" src="empty.png" alt="empty">
+                    <p style="margin:auto;">129,99TL</p>
+                </button>
+                <button class="katagorilereGozatButton">
+                    <img class="ozelFirsatlarImg" style="margin: auto;" src="empty.png" alt="empty">
+                    <p style="margin:auto;">129,99TL</p>
+                </button>
+                <button class="katagorilereGozatButton" style="float:left;">
+                    <img class="ozelFirsatlarImg" style="margin: auto;" src="empty.png" alt="empty">
+                    <p style="margin:auto;">129,99TL</p>
+                </button>
+                <button class="katagorilereGozatButton">
+                    <img class="ozelFirsatlarImg" style="margin: auto;" src="empty.png" alt="empty">
+                    <p style="margin:auto;">129,99TL</p>
+                </button>
+                <button class="katagorilereGozatButton" style="float:left;">
+                    <img class="ozelFirsatlarImg" style="margin: auto;" src="empty.png" alt="empty">
+                    <p style="margin:auto;">129,99TL</p>
+                </button>
+                <button class="katagorilereGozatButton">
+                    <img class="ozelFirsatlarImg" style="margin: auto;" src="empty.png" alt="empty">
+                    <p style="margin:auto;">129,99TL</p>
+                </button>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+
+        <hr>
+        <input style="float: left;" type="button" value="Steam Hakkında">
+        <input style="float: left;" type="button" value="Valve Hakkında">
+        <input style="float: left;" type="button" value="Yardım">
+        <input style="float: left;" type="button" value="Haber Akışları">
+        <br>
+        <hr>
+        <div class="footer_content">
+            <div class="rule"></div>
+
+            <div id="footer_nav" data-panel="{&quot;flow-children&quot;:&quot;row&quot;}">
+
+
+
+                <span class="pulldown btnv6_blue_hoverfade btn_small" id="footer_steam_pulldown">
+
+                </span>
+                <div class="popup_block_new" id="footer_steam_dropdown"
+                    style="visibility: visible; top: 63px; left: 125.8px; display: none; opacity: 0.157726;">
+                    <div class="popup_body popup_menu">
+                        <a class="popup_menu_item" href="https://store.steampowered.com/about/?snr=1_44_44__22">
+                            Steam Nedir? </a>
+                        <a class="popup_menu_item"
+                            href="https://support.steampowered.com/kb_article.php?p_faqid=549#gifts" target="_blank"
+                            rel="noreferrer">
+                            Steam Üzerinden Hediyeleşme </a>
+                        <a class="popup_menu_item" href="https://steamcommunity.com/?snr=1_44_44__22">
+                            Steam Topluluğu </a>
+                    </div>
+                </div>
+
+                <span class="pulldown btnv6_blue_hoverfade btn_small" id="footer_valve_pulldown">
+
+                </span>
+                <div class="popup_block_new" id="footer_valve_dropdown"
+                    style="visibility: visible; top: 63px; left: 272.174px; display: none; opacity: 0.100158;">
+                    <div class="popup_body popup_menu">
+                        <a class="popup_menu_item" href="http://www.valvesoftware.com/about.html" target="_blank"
+                            rel="noreferrer">
+                            Valve Hakkında </a>
+                        <a class="popup_menu_item" href="http://www.valvesoftware.com/business/" target="_blank"
+                            rel="noreferrer">
+                            İş Çözümleri </a>
+                        <a class="popup_menu_item" href="http://www.steampowered.com/steamworks/" target="_blank"
+                            rel="noreferrer">
+                            Steamworks </a>
+                        <a class="popup_menu_item" href="http://www.valvesoftware.com/jobs.html" target="_blank"
+                            rel="noreferrer">
+                            Kariyer </a>
+                    </div>
+                </div>
+
+
+                <span class="pulldown btnv6_blue_hoverfade btn_small" id="footer_help_pulldown">
+
+                </span>
+                <div class="popup_block_new" id="footer_help_dropdown"
+                    style="visibility: visible; top: 63px; left: 414.1px; display: none; opacity: 0.124944;">
+                    <div class="popup_body popup_menu">
+                        <a class="popup_menu_item" href="https://help.steampowered.com/tr/?snr=1_44_44__23">
+                            Destek </a>
+                        <a class="popup_menu_item" href="https://store.steampowered.com/forums/?snr=1_44_44__23"
+                            target="_blank" rel="noreferrer">
+                            Forumlar </a>
+                        <a class="popup_menu_item" href="https://store.steampowered.com/stats/?snr=1_44_44__23"
+                            target="_blank" rel="noreferrer">
+                            İstatistikler </a>
+                    </div>
+                </div>
+
+
+                <span class="pulldown btnv6_blue_hoverfade btn_small" id="footer_feeds_pulldown">
+
+                </span>
+                <div class="popup_block_new" id="footer_feeds_dropdown"
+                    style="visibility: visible; top: 63px; left: 500.225px; display: none; opacity: 0.104922;">
+                    <div class="popup_body popup_menu">
+                        <a class="popup_menu_item" href="https://store.steampowered.com/feeds/news.xml">
+                            <img src="https://store.cloudflare.steamstatic.com/public/images/ico/ico_rss2.gif"
+                                width="13" height="13" border="0" alt="" align="top">&nbsp;&nbsp;Steam Haberleri </a>
+                        <a class="popup_menu_item" href="https://store.steampowered.com/feeds/newreleases.xml">
+                            <img src="https://store.cloudflare.steamstatic.com/public/images/ico/ico_rss2.gif"
+                                width="13" height="13" border="0" alt="" align="top">&nbsp;&nbsp;Yeni Çıkan Oyunlar </a>
+                        <a class="popup_menu_item" href="https://store.steampowered.com/feeds/daily_deals.xml">
+                            <img src="https://store.cloudflare.steamstatic.com/public/images/ico/ico_rss2.gif"
+                                width="13" height="13" border="0" alt="" align="top">&nbsp;&nbsp;Günlük Fırsatlar </a>
+                    </div>
+                </div>
+                <div style="clear: left;"></div>
+
+                <script type="text/javascript">
+                    RegisterFlyout('footer_genre_p ulldown', 'footer_genre_dropdown', null, null, true);
+                    RegisterFlyout('footer_steam_pulldown', 'footer_steam_dropdown', null, null, true);
+                    RegisterFlyout('footer_valve_pulldown', 'footer_valve_dropdown', null, null, true);
+                    RegisterFlyout('footer_help_pulldown', 'footer_help_dropdown', null, null, true);
+                    RegisterFlyout('footer_feeds_pulldown', 'footer_feeds_dropdown', null, null, true);
+                </script>
+            </div>
+
+            <br>
+
+            <div class="rule"></div>
+            <div id="footer_logo_steam" style="float: right;"><img
+                    src="https://store.cloudflare.steamstatic.com/public/images/v6/logo_steam_footer.png"
+                    alt="Valve Software" border="0" height="26" width="92"></div>
+
+            <div id="footer_logo" style="float: left;"><a href="http://www.valvesoftware.com" target="_blank"
+                    rel="noreferrer"><img
+                        src="https://store.cloudflare.steamstatic.com/public/images/footerLogo_valve_new.png"
+                        alt="Valve Software" border="0" height="25" width="88"></a></div>
+            <div id="footer_text" style="font-size: 12px;" data-panel="{&quot;flow-children&quot;:&quot;row&quot;}">
+                <div>© 2021 Valve Corporation. Tüm hakları saklıdır. Tüm ticari markalar, ABD ve diğer ülkelerde ilgili
+                    sahiplerinin mülkiyetindedir.</div>
+                <div>Uygulanabilir yerlerde fiyatlara KDV dahildir.&nbsp;&nbsp;
+
+                    <a href="https://store.steampowered.com/privacy_agreement/?snr=1_44_44_" target="_blank"
+                        rel="noreferrer">Gizlilik Politikası</a>
+                    &nbsp; | &nbsp;
+                    <a href="https://store.steampowered.com/legal/?snr=1_44_44_" target="_blank" rel="noreferrer">Yasal
+                        Bilgi</a>
+                    &nbsp; | &nbsp;
+                    <a href="https://store.steampowered.com/subscriber_agreement/?snr=1_44_44_" target="_blank"
+                        rel="noreferrer">Steam Abonelik Sözleşmesi</a>
+                    &nbsp; | &nbsp;
+                    <a href="https://store.steampowered.com/steam_refunds/?snr=1_44_44_" target="_blank"
+                        rel="noreferrer">İadeler</a>
+                    &nbsp; | &nbsp;
+                    <a href="https://store.steampowered.com/account/cookiepreferences/?snr=1_44_44_" target="_blank"
+                        rel="noreferrer">Çerezler</a>
+
+                </div>
+
+
+            </div>
+
+
+
+            <div style="clear: left;"></div>
+            <br>
+
+            <div class="rule"></div>
+
+            <div class="valve_links" style="font-size: 13px;" data-panel="{&quot;flow-children&quot;:&quot;row&quot;}">
+                <a href="http://www.valvesoftware.com/about.html" target="_blank" rel="noreferrer">Valve Hakkında</a>
+                &nbsp; | &nbsp;<a href="http://www.steampowered.com/steamworks/" target="_blank"
+                    rel="noreferrer">Steamworks</a>
+                &nbsp; | &nbsp;<a href="http://www.valvesoftware.com/jobs.html" target="_blank"
+                    rel="noreferrer">Kariyer</a>
+                &nbsp; | &nbsp;<a href="https://partner.steamgames.com/steamdirect" target="_blank"
+                    rel="noreferrer">Steam Dağıtımı</a>
+                &nbsp; | &nbsp;<a href="https://store.steampowered.com/digitalgiftcards/?snr=1_44_44_" target="_blank"
+                    rel="noreferrer">Hediye Kartları</a>
+                &nbsp; | &nbsp;<a href="https://steamcommunity.com/linkfilter/?url=http://www.facebook.com/Steam"
+                    target="_blank" rel="noopener"><img
+                        src="https://store.cloudflare.steamstatic.com/public/images/ico/ico_facebook.gif"> Steam</a>
+                &nbsp; | &nbsp;<a href="http://twitter.com/steam" target="_blank" rel="noreferrer"><img
+                        src="https://store.cloudflare.steamstatic.com/public/images/ico/ico_twitter.gif"> @steam</a>
+            </div>
+
+        </div>
+        <hr>
+
+
+
+    </div>
+
+</body>
+
+</html>
